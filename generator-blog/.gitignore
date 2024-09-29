@@ -1,0 +1,40 @@
+# compiled output
+id_rsa
+/dist
+/node_modules
+/docker
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.env
+# OS
+.DS_Store
+*.yaml
+Dockerfile
+# Tests
+/coverage
+/.nyc_output
+*.tar
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+/files/plans/*
+/files/attendances_tasks/*
+/files/bank-slip/shippings/*
+/files/contracts/*
+# IDE  VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
